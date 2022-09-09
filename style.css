@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 body{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
 }
 
 *{
@@ -18,15 +18,15 @@ nav ul{
     align-items: center;
     list-style-type: none;
     height: 55px;
-    /* background-color: rgb(5, 5, 4); */
-    /* background-image:linear-gradient(yellow  ); */
+ background-color: black;
     color: rgb(251, 251, 251);
-    background-image: linear-gradient(to right, black , yellow);
+    /* background-image: linear-gradient(to right, black ); */
+    width: 100%;
 }
 
 nav ul li{
     padding: 0 12px;
-}
+} 
 .brand img{
     width: 44px;
     padding: 0 8px;
@@ -41,14 +41,14 @@ nav ul li{
     font-size: 1.3rem;
 }
 
-.container{
+.containeres{
     min-height: 72vh;
     background-color: rgb(255, 0, 0);
     color: white;
    font-family: 'Varela Round', sans-serif;
    display: flex;
-   margin: 5px auto;
-   width: 95%;
+   /* margin: 5px auto; */
+   width: 100%;
    /* border-radius: 12px; */
    padding: 34px;
    background-image: linear-gradient(to right, rgb(0, 0, 0) , yellow);
@@ -59,8 +59,8 @@ nav ul li{
     position: sticky;
     bottom: 0;
     height: 130px;
-    background-image: linear-gradient(to right, black , yellow);
-
+    /* background-image: linear-gradient(to right, black , yellow); */
+background-color: black;
     color: white;
     display: flex;
     justify-content: center;
@@ -93,7 +93,7 @@ nav ul li{
     margin: 12px 0;
     justify-content: space-between;
     align-items: center;
-    /* border-radius: 34px; */
+     border-radius: 9px; 
 }
 
 .songItem img{
@@ -129,6 +129,27 @@ nav ul li{
   
   @media only screen and (max-width: 1100px) {
     nav ui {
-        min-width: auto;
+        /* min-width: auto; */
+        background-color: aqua;
     }
+    #icons{
+        height: 3px;
+        width: 3px;
+        padding: 5px;
+    }
+    .songInfo{
+        position: relative;
+        margin: 0 50px;
+    }
+/* 
+    #masterPlay{
+        height: 5px;
+        width: 5px;
+    }
+#next{
+    height: 5px;
+        width: 5px;
+        margin-right: 300px;
+} */
+
   }
